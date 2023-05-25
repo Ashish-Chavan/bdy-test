@@ -1598,6 +1598,7 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
   * Author:   Daniel Hochleitner
   * Created:  04.09.15
   * Changed:
+  * Changed:
   ****************************************************************************/
   FUNCTION count_all_usr RETURN NUMBER IS
     --
