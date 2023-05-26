@@ -1599,6 +1599,7 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
   * Created:  04.09.15
   * Changed:
   * Changed:
+  * Changed:
   ****************************************************************************/
   FUNCTION count_all_usr RETURN NUMBER IS
     --
