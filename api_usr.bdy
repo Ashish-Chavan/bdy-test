@@ -232,6 +232,8 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
                          i_log_text     => SQLERRM);
       RAISE;
   END get_md5_usr;
+  
+  
   --
   /*************************************************************************
   * Purpose:  Compares (Before/After) md5 checksum of usr
