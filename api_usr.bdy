@@ -65,6 +65,12 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
                          i_log_text     => SQLERRM);
       RAISE;
   END ins_usr;
+  
+  
+  
+  
+  
+  
   --
   /*************************************************************************
   * Purpose:  UPDATES dataset of table usr
