@@ -1636,6 +1636,5 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
                          i_log_text     => SQLERRM);
       RAISE;
   END count_all_usr;
-  --
 END api_usr;
 /
