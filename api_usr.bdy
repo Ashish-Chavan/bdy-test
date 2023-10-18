@@ -1500,12 +1500,6 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
     -- update
     api_usr.upd_usr(i_rec_usr => l_rec_usr);
     --
-  EXCEPTION
-    WHEN OTHERS THEN
-      api_err_log.do_log(i_log_function => priv_package || '.' ||
-                                           l_function,
-                         i_log_text     => SQLERRM);
-      RAISE;
   END do_change_usr_acc_status;
   --
   /****************************************************************************
