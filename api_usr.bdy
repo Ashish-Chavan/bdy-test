@@ -13,7 +13,6 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
   * Purpose:  INSERTS dataset into usr and returns PK
   * Author:   Daniel Hochleitner
   * Created:  14.08.15
-  * Changed:
   *************************************************************************/
   FUNCTION ins_usr(i_rec_usr IN pub_rec_usr_type) RETURN usr.id_usr%TYPE IS
     l_function CONSTANT VARCHAR2(30) := 'ins_usr';
