@@ -1637,4 +1637,3 @@ CREATE OR REPLACE PACKAGE BODY api_usr IS
       RAISE;
   END count_all_usr;
 END api_usr;
-/
